@@ -21,3 +21,5 @@ When you get to the map, use the Leaflet dropdown menu in the upper-right corner
 **Question 300:** Proposed authorizing medical marijuana licensees to become recreational marijuana retail licensees. Question 300 succeeded in Colorado Springs, with 54.7% of voters voting Yes/For.
 
 **Amendment 79**: Proposed creating a right to abortion in the state of Colorado and allowing the use of public funds for abortion. Amendment 79 succeeded state-wide, with 62% of voters voting Yes/For, and succeeded in El Paso County with 52% of voters voting Yes/For.
+
+<iframe src="map.html" height="700" width="700"></iframe>
