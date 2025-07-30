@@ -4,7 +4,13 @@ This interactive map was made with QGIS and the qgis2web plugin. It comprehensiv
 
 ## Map Background & Details
 
-This interactive map is the result of a months-long project to visually represent last year's election results for El Paso County at the precinct level. Data on all state-wide propositions and amendments, the presidential race, and all national and state representative/senate candidates was initially collected across all 329 precincts in El Paso County. This data was then corresponded to each precinct's shapefile, which was obtained through a public dataset found <a href="https://opendata-elpasoco.hub.arcgis.com/datasets/6a9d04124af34a218dfebdbfc2c16864_0/about">here</a>. 
+This interactive map is the result of a months-long project to visually represent last year's election results for El Paso County at the precinct level. The purpose of this map is to strategically support the <a href="https://www.jointinitiatives.org/family-friendly-initiative/">Family Friendly Initiative</a>, a collaborative initiative to expand affordable childcare for families across the Pikes Peak Region. This data can be used to develop an optimal strategy for a ballot measure that would address the childcare gap in El Paso County
+
+Data on all state-wide propositions and amendments, the presidential race, and all national and state representative/senate candidates was initially collected across all 329 precincts in El Paso County. This data was then corresponded to each precinct's shapefile, which was obtained through a public dataset found <a href="https://opendata-elpasoco.hub.arcgis.com/datasets/6a9d04124af34a218dfebdbfc2c16864_0/about">here</a>. I uploaded the shapefile layers into QGIS and joined election results data for the 4 ballot measures in each table. Using rule-based and graduated symbology in each layer, precincts were color-coded to indicate Yes/For, No/Against, and Tie results, and I created heat maps for each layer to show voter density. Once the initial map layers were complete, I used the qgis2web plugin to make the map public and interactive.
+
+When you get to the map, use the Leaflet dropdown menu in the upper-right corner to display which ballot measure results and their associated heat maps you want to see. You can select individual precincts to show the precinct number, contest, total precinct votes, Yes/For and No/Against votes, and percentages of Yes/For and No/Against votes. Note that Question 300 was a local ballot measure for Colorado Springs, so only precincts for Colorado Springs will display for that layer.
+
+**Coming soon:** I also eventually want to display which precincts were "swing" precincts - precincts whose Yes/For and No/Against vote proportions were 55/45 to 50/50 to 45/55.
 
 ## Ballot Measure Details
 
